@@ -4,4 +4,4 @@ The purpose of this docker containers is simple, it just runs a quick test on yo
 
 ## Usage
 
-`docker run -v YOUR_CONFIG_PATH/:/etc/nginx/sites-enabled/:ro Grahamdigital/NginxTest
+`docker run -v YOUR_CONFIG_PATH/:/etc/nginx/conf.d/:ro grahamdigital/nginxtest
